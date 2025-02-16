@@ -274,9 +274,8 @@ const Login = () => {
       >
         <Box
           sx={{
-            backgroundColor: "#312783",
+            //backgroundColor: "#312783",
             padding: "58px",
-            paddingBottom: "64px",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -284,9 +283,11 @@ const Login = () => {
             transform: "scale(0.8)",
             marginRight: "-95px",
             height: "35%",
+           
           }}
         >
-          <img
+          
+           <img
             src={logo}
             alt="Logo"
             style={{
@@ -294,12 +295,15 @@ const Login = () => {
               height: "auto",
             }}
           />
+           
+          
+          
         </Box>
 
         <Box
           sx={{
             borderTopRightRadius: "50px",
-            backgroundColor: "white",
+            //backgroundColor: "white",
             padding: 4,
             boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.1)",
             width: "90%",
